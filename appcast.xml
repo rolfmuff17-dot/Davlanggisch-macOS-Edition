@@ -2,9 +2,30 @@
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
     <channel>
         <title>Davlanggisch Updates</title>
-        <link>https://raw.githubusercontent.com/rolfmuff17-dot/Davlanggisch-Update/main/appcast.xml</link>
+        <link>https://raw.githubusercontent.com/rolfmuff17-dot/Davlanggisch-macOS-Edition/main/appcast.xml</link>
         <description>Die neuesten Updates für den Davlanggisch Wörterbuch- &amp; Übersetzer-Client auf macOS.</description>
         <language>de</language>
+        <item>
+            <title>Davlanggisch Version 1.8.0</title>
+            <description><![CDATA[
+                <h2>Neuheiten &amp; Verbesserungen in Davlanggisch 1.8.0 (Build 22):</h2>
+                <ul>
+                    <li><strong>Anbindung der Vorschlags-Gist-Datenbank:</strong> Der Übersetzer lädt nun zusätzlich zur verifizierten Hauptdatenbank auch alle eingereichten Wörter aus der Vorschlags-Datenbank (<code>bb3d97c220652d5207341b2a6b4b19af</code>).</li>
+                    <li><strong>Hinweis „Dieses Wort ist noch nicht verifiziert“:</strong> Wird ein Wort übersetzt oder im Live-Wörterbuch nachgeschlagen, das aus der Vorschlags-Datenbank stammt und noch nicht in der verifizierten Hauptdatenbank freigegeben wurde, erscheint direkt unter der Übersetzung sowie in der Wörterbuch-Suche der deutliche Hinweis <strong>„⚠️ Dieses Wort ist noch nicht verifiziert“</strong>.</li>
+                    <li><strong>Automatischer Verifizierungs-Abgleich:</strong> Sobald ein vorgeschlagenes Wort durch einen Administrator in die offizielle Hauptdatenbank übernommen wird, erkennt der Übersetzer dies automatisch und blendet den Hinweis „Dieses Wort ist noch nicht verifiziert“ nicht mehr ein.</li>
+                    <li><strong>Aktualisierte GitHub-Gist-Synchronisation:</strong> Zuverlässige Echtzeit-Synchronisation beider Wörterbuch-Datenbanken inklusive automatischer Konjugations- und Steigerungserkennung für unbestätigte und verifizierte Wörter.</li>
+                </ul>
+            ]]></description>
+            <pubDate>Tue, 24 Nov 2026 20:34:59 +0100</pubDate>
+            <sparkle:version>22</sparkle:version>
+            <sparkle:shortVersionString>1.8.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/rolfmuff17-dot/Davlanggisch-macOS-Edition/releases/download/v1.8.0/Davlanggisch-1.8.0.dmg"
+                length="3563396"
+                type="application/x-apple-diskimage"
+                sparkle:edSignature="xf2dnatZEfPZeZKxiWXUkh8CK5o/OZ1iFhYh7gn1WwvE7UuEhtTnVPBUieKu71iC47vvtxp5caJeMFRRCj9jCQ==" />
+        </item>
         <item>
             <title>Davlanggisch Version 1.7.0</title>
             <description><![CDATA[
@@ -24,7 +45,7 @@
             <sparkle:shortVersionString>1.7.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
             <enclosure
-                url="https://github.com/rolfmuff17-dot/Davlanggisch-Update/releases/download/v1.7.0/Davlanggisch-1.7.0.dmg"
+                url="https://github.com/rolfmuff17-dot/Davlanggisch-macOS-Edition/releases/download/v1.7.0/Davlanggisch-1.7.0.dmg"
                 length="3557387"
                 type="application/x-apple-diskimage"
                 sparkle:edSignature="0OpzmDbj2WnQ77Bgfb7l2LO7Iqs6Vo71EyPV4QCRBc1NZ096Poq2MEYUk4WyCuf7/m0V3xw4+83U4byp6rC/BA==" />
@@ -46,7 +67,7 @@
             <sparkle:shortVersionString>1.6.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
             <enclosure
-                url="https://github.com/rolfmuff17-dot/Davlanggisch-Update/releases/download/v1.6.0/Davlanggisch-1.6.0.dmg"
+                url="https://github.com/rolfmuff17-dot/Davlanggisch-macOS-Edition/releases/download/v1.6.0/Davlanggisch-1.6.0.dmg"
                 length="3523097"
                 type="application/x-apple-diskimage"
                 sparkle:edSignature="KmaeYWfG9CnVCrPxSVpuwK5fPdHMdS8WYPMRvGh22QdwszfR/SfsvhYxZW33jqXwNc7VeaWy5vLhCuwOJ9IbBA==" />
@@ -70,7 +91,7 @@
             <sparkle:shortVersionString>1.5.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
             <enclosure
-                url="https://github.com/rolfmuff17-dot/Davlanggisch-Update/releases/download/v1.5.1/Davlanggisch-1.5.1.dmg"
+                url="https://github.com/rolfmuff17-dot/Davlanggisch-macOS-Edition/releases/download/v1.5.1/Davlanggisch-1.5.1.dmg"
                 length="3415062"
                 type="application/x-apple-diskimage"
                 sparkle:edSignature="j0rLWwa0IpioKd94bc4pmN+RuGC8lrIYlGZI+lD6EsMcOkeTw1DBJr7O+Fl440vQ0OLhAxZOrlhQQfcrnZRZAQ==" />
@@ -93,7 +114,7 @@
             <sparkle:shortVersionString>1.5.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
             <enclosure
-                url="https://github.com/rolfmuff17-dot/Davlanggisch-Update/releases/download/v1.5.0/Davlanggisch-1.5.0.dmg"
+                url="https://github.com/rolfmuff17-dot/Davlanggisch-macOS-Edition/releases/download/v1.5.0/Davlanggisch-1.5.0.dmg"
                 length="3086866"
                 type="application/x-apple-diskimage"
                 sparkle:edSignature="2ENwTZcmdDllq6qu7ijPtpRhc1ifhr5bvz8o8mdGCYV3fv3rNrarmwKSy85uLrHbUDLUP2j9/ipPO6ZiipeEBA==" />
@@ -116,7 +137,7 @@
             <sparkle:shortVersionString>1.4.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
             <enclosure
-                url="https://github.com/rolfmuff17-dot/Davlanggisch-Update/releases/download/v1.4.1/Davlanggisch-1.4.1.dmg"
+                url="https://github.com/rolfmuff17-dot/Davlanggisch-macOS-Edition/releases/download/v1.4.1/Davlanggisch-1.4.1.dmg"
                 length="3078340"
                 type="application/x-apple-diskimage"
                 sparkle:edSignature="DrNI0MrVX3k7/4C03aN1BWlSeQUo3jeYUKw0qCViCnnD+cSXQ8zFG5BFfiGac7j/8DMFMMn8juEnXxMloaAXCA==" />
@@ -140,7 +161,7 @@
             <sparkle:shortVersionString>1.4.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
             <enclosure
-                url="https://github.com/rolfmuff17-dot/Davlanggisch-Update/releases/download/v1.4.0/Davlanggisch-1.4.0.dmg"
+                url="https://github.com/rolfmuff17-dot/Davlanggisch-macOS-Edition/releases/download/v1.4.0/Davlanggisch-1.4.0.dmg"
                 length="3062134"
                 type="application/x-apple-diskimage"
                 sparkle:edSignature="Jof6R0AmpU8K+P55ZaiuFEEiiPK3fL+4gv/NeyEOQPUusSWNyWFbZ0QomcuCvNDXP8Y8hzS0cgXnMdQILkDODQ==" />
@@ -162,7 +183,7 @@
             <sparkle:shortVersionString>1.3.4</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
             <enclosure
-                url="https://github.com/rolfmuff17-dot/Davlanggisch-Update/releases/download/v1.3.4/Davlanggisch-1.3.4.dmg"
+                url="https://github.com/rolfmuff17-dot/Davlanggisch-macOS-Edition/releases/download/v1.3.4/Davlanggisch-1.3.4.dmg"
                 length="2834024"
                 type="application/x-apple-diskimage"
                 sparkle:edSignature="q58BkLoWWY+/S3UaMpG+a5movwFrNCNzmrRg0YIVilluyiHVcmkctBd3QhzHrtha/y7r7f5Scs4lyM6Vui1/Dw==" />
@@ -181,11 +202,11 @@
             <sparkle:shortVersionString>1.3.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
             <enclosure
-                url="https://github.com/rolfmuff17-dot/Davlanggisch-Update/releases/download/v1.3.3/Davlanggisch-1.3.3.dmg"
+                url="https://github.com/rolfmuff17-dot/Davlanggisch-macOS-Edition/releases/download/v1.3.3/Davlanggisch-1.3.3.dmg"
                 length="2823621"
                 type="application/x-apple-diskimage"
                 sparkle:edSignature="255jZAH8e6ApOKzrk9cHguY+nrNTP2NzBGguOeoZfC84/BJWjzSo15KsLyaer9DDrB+6ruACMglFZyptaWWyDA==" />
-        </item>
+209:         </item>
         <item>
             <title>Davlanggisch Version 1.3.2</title>
             <description><![CDATA[
@@ -200,7 +221,7 @@
             <sparkle:shortVersionString>1.3.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
             <enclosure
-                url="https://github.com/rolfmuff17-dot/Davlanggisch-Update/releases/download/v1.3.2/Davlanggisch-1.3.2.dmg"
+                url="https://github.com/rolfmuff17-dot/Davlanggisch-macOS-Edition/releases/download/v1.3.2/Davlanggisch-1.3.2.dmg"
                 length="3105681"
                 type="application/x-apple-diskimage"
                 sparkle:edSignature="xfJo6rWW34qYjcHSY2wLzHwa3j0xEemJwkJ08JYvfzB2+q3Te5GAo+v+pWx4bItaLaF/aGx5romKG+Wh4MAWDA==" />
@@ -219,7 +240,7 @@
             <sparkle:shortVersionString>1.3.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
             <enclosure
-                url="https://github.com/rolfmuff17-dot/Davlanggisch-Update/releases/download/v1.3.1/Davlanggisch-1.3.1.dmg"
+                url="https://github.com/rolfmuff17-dot/Davlanggisch-macOS-Edition/releases/download/v1.3.1/Davlanggisch-1.3.1.dmg"
                 length="3106849"
                 type="application/x-apple-diskimage"
                 sparkle:edSignature="xwrbPGfIk/q60tsguRB2mY8qZ9JjZn7GFIRqJioJADic/mSrqP5WXSclUzaPPEUOtIv7j9YLPR6WTiFjtIWBBQ==" />
@@ -238,7 +259,7 @@
             <sparkle:shortVersionString>1.3.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
             <enclosure
-                url="https://github.com/rolfmuff17-dot/Davlanggisch-Update/releases/download/v1.3.0/Davlanggisch-1.3.0.dmg"
+                url="https://github.com/rolfmuff17-dot/Davlanggisch-macOS-Edition/releases/download/v1.3.0/Davlanggisch-1.3.0.dmg"
                 length="3112450"
                 type="application/x-apple-diskimage"
                 sparkle:edSignature="tE9vh3+8QjZ/m+fAsWoYnqRoZ2gu0l6x4AYocrA+9DuYdQE93sArDyVYUNnUMQ5uI0bLKwmSZtAZQVe7HSoHDw==" />
@@ -257,7 +278,7 @@
             <sparkle:shortVersionString>1.2.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
             <enclosure
-                url="https://github.com/rolfmuff17-dot/Davlanggisch-Update/releases/download/v1.2.0/Davlanggisch-1.2.0.dmg"
+                url="https://github.com/rolfmuff17-dot/Davlanggisch-macOS-Edition/releases/download/v1.2.0/Davlanggisch-1.2.0.dmg"
                 length="2933390"
                 type="application/x-apple-diskimage"
                 sparkle:edSignature="sfgGm2/hS2Jidke6MJvafGMAJU/pbm2iSiFQt9U4TaILD3fpkAS/ZvSAXXw6FuwGcXG2muLkZoN/1uK5+uaFDQ==" />
@@ -276,7 +297,7 @@
             <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
             <enclosure
-                url="https://github.com/rolfmuff17-dot/Davlanggisch-Update/releases/download/v1.1.0/Davlanggisch-1.1.0.dmg"
+                url="https://github.com/rolfmuff17-dot/Davlanggisch-macOS-Edition/releases/download/v1.1.0/Davlanggisch-1.1.0.dmg"
                 length="3831335"
                 type="application/x-apple-diskimage"
                 sparkle:edSignature="TvXCdFuQnalS1rCv1pQDguaTWuEf878SCaCzZS43eaU8DqrKPGSEtNDbpNrreAMiuqwslXVr1J487rYjzRXwCg==" />
@@ -296,7 +317,7 @@
             <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
             <enclosure
-                url="https://github.com/rolfmuff17-dot/Davlanggisch-Update/releases/download/v1.0.0/Davlanggisch-1.0.0.dmg"
+                url="https://github.com/rolfmuff17-dot/Davlanggisch-macOS-Edition/releases/download/v1.0.0/Davlanggisch-1.0.0.dmg"
                 length="4223640"
                 type="application/x-apple-diskimage"
                 sparkle:edSignature="l+9l7rRUl403+p9KYM0El+pZnU4VWz3t5ORfBYD9xxQCkNAtdrUFxrrgOKhryd3cACTtbIfcqV85iuv7/mx3Cw==" />
